@@ -1,0 +1,33 @@
+Share your MVP specification!
+Task: Share a link here to a NEW Google Document where each of the following tasks are addressed.
+
+Rename the document
+Task: Rename the document to be the Project's name and append "MVP specification."
+The document should be renamed to "3D Maze-Project MVP Specification."
+Architecture
+Task: In a section named "Architecture," include an illustration or diagram of the Portfolio Project's MVP. This should include an end-to-end map for the data flowing through your system. Each part of the diagram should be clearly labeled.
+[Insert Architecture Diagram]
+APIs
+Task: In a section called "APIs and Methods," list and describe the API routes that you will be creating for your web client to communicate with your web server. Also, list and describe any API endpoints or function/methods that you will be creating to allow any other clients to use. If you will be using any 3rd party APIs, list and describe them as well.
+API Routes:
+/api/maze
+GET: Retrieves maze data for rendering the game.
+POST: Accepts player moves and updates the maze state.
+/api/scores
+GET: Retrieves the leaderboard with the top scores.
+POST: Submits a new score to be added to the leaderboard.
+3rd Party APIs:
+None.
+Data Modeling
+Task: In a section named "Data Model," create a data model diagram to clarify how data will be stored. You can use tools like SqlDBM for this purpose.
+[Insert Data Model Diagram]
+User Stories
+Task: In the "User Stories" section, define 3-5 detailed user stories that will be satisfied when your MVP is complete. Research what user stories are and how to write them before completing this task.
+User Stories:
+As a player, I want to be able to navigate through the maze using arrow keys to reach the exit.
+As a player, I want to see my current score and remaining time displayed on the screen.
+As a player, I want to be notified when I successfully complete the maze and have my score recorded.
+As a player, I want to compete with other players and see the leaderboard to compare my scores.
+As a player, I want the maze to be randomly generated each time for a unique gameplay experience.
+Mockups
+Task: In a section called "Mockups," include a mockup of each view that will need to be created for your MVP. Use a prototyping tool like Balsamiq to draft your user-facing visual interfaces.
